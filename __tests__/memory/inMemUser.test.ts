@@ -1,6 +1,7 @@
 import { assertEquals } from "jsr:@std/assert";
 import { inMemoryUser } from "../../memory/inMemUser.ts";
 
+
 Deno.test("In memory User model create & read", () => {
     const usuario = {
         id: 1,
